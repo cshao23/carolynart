@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+ /* 
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg);
+}
+along the side of CarolynImage */
+html { 
+    background: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg) no-repeat center fixed; 
+    background-size:50%;
+    background-position: center;
+    background-repeat: repeat;
+    margin:auto;
+    padding:0;
+  }
+
+.navbar{
+    padding-top: 40px;
+     width: 85%;
+     margin:auto;
+     display:flex;
+     align-items: center;
+     position: relative;
+     left: -70px;
+   
+ }
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    right: -450px;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+
+img {
+    border: 10px solid white;
+    border-radius: 4px;
+    outline: 1px solid black;
+}
+
+.aboutMe{
+     
+    position: absolute;
+    left: 30px;
+    top:10px;
+}
+.carolynImg{
+    position: relative;
+    top: 100px;
+ 
+
+}
+.oilPaintskech{
+    position: absolute;
+    left: 480px;
+    top: 150px;
+}
+.oilpaintref{
+    position: absolute;
+    left: 975px;
+    top: 200px;
+}
+
+.description{
+    position: relative;
+    width: 600px;
+    left:200px;
+    top:-85px;
+    line-height:1.5;
+    font-size: 20px;
+
+}
+.paintDes{
+
+    line-height:1.75;
+
+}
+.charcoal{
+    position: absolute;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+.caption{
+    display: block;
+
+}
+
+.leaf{
+    position: absolute;
+    left: 500px;
+    top: 900px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+.wrap{
+    position: absolute;
+    left: 1000px;
+    top: 900px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+.reverse{
+    position: absolute;
+    top: 1500px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    
+
+}
+.woman{
+    position: absolute;
+    top: 1475px;
+    left: 500px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+
+}
+.lotus{
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+
+.content{
+   position:absolute;
+   left: 40px;
+   top:350px;
+   font-size:20px;
+   font-family: Geneva;
+    line-height:1.25;
+    
+    
+}
+
+.videoViolin{
+    width: 250
+
+}
+
+.music{
+    position: absolute;
+    top: 2600px;
+
+}
